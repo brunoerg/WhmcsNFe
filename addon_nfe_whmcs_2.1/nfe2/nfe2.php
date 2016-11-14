@@ -13,8 +13,8 @@ function nfe2_config() {
   $custom_fields = listClientCustomFields();
   $configarray = array(
     'name' => 'NFE - Nota Fiscal Eletrônica',
-    'version' => '1.0',
-    'author' => 'Bruno Garcia',
+    'version' => '1.1',
+    'author' => 'Dev',
     'description' => 'Gera os arquivos TXT para enviar a Receita Federal',
     'fields' => array(
       'cnpj'                            => array("FriendlyName" => "CNPJ",                "Type" => "text", "size" => "14", "Description" => "CPF/CNPJ do Prestador"),
